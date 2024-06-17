@@ -1,0 +1,15 @@
+{
+  "ALPAKA_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/alpaka/develop-20220124-f17f2dd6cc2f71a4ec62ac55fe4ce61f",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/alpaka/develop-20220124-f17f2dd6cc2f71a4ec62ac55fe4ce61f/include"
+  ],
+  "TOOLNAME": "alpaka",
+  "TOOLVERSION": "develop-20220124-f17f2dd6cc2f71a4ec62ac55fe4ce61f",
+  "USE": [
+    "boost"
+  ],
+  "VARIABLES": [
+    "ALPAKA_BASE",
+    "INCLUDE"
+  ]
+}

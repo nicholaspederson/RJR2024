@@ -1,0 +1,13 @@
+{
+  "PY3_SETUPTOOLS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-setuptools/51.3.3-0a99141bf714e4a7e9bc6509b15bc0af",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-setuptools/51.3.3-0a99141bf714e4a7e9bc6509b15bc0af/bin"
+    ]
+  },
+  "TOOLNAME": "py3-setuptools",
+  "TOOLVERSION": "51.3.3-0a99141bf714e4a7e9bc6509b15bc0af",
+  "VARIABLES": [
+    "PY3_SETUPTOOLS_BASE"
+  ]
+}

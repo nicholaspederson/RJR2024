@@ -1,0 +1,20 @@
+{
+  "JIMMY_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885",
+  "LIB": [
+    "jimmy"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885/lib"
+  ],
+  "TOOLNAME": "jimmy",
+  "TOOLVERSION": "4.2-0946a2956c22bd57432052718d3cd885",
+  "USE": [
+    "f77compiler",
+    "herwig",
+    "jimmy_headers"
+  ],
+  "VARIABLES": [
+    "JIMMY_BASE",
+    "LIBDIR"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "PY3_CHARDET_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-chardet/4.0.0-13556b5deec4021b0c42cf978643b25c",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-chardet/4.0.0-13556b5deec4021b0c42cf978643b25c/bin"
+    ]
+  },
+  "TOOLNAME": "py3-chardet",
+  "TOOLVERSION": "4.0.0-13556b5deec4021b0c42cf978643b25c",
+  "VARIABLES": [
+    "PY3_CHARDET_BASE"
+  ]
+}

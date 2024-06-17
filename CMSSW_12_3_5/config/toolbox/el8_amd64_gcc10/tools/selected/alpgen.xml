@@ -1,0 +1,6 @@
+<tool name="alpgen" version="214-a90e955bf63622fb41dfb9c794a419d4">
+  <client>
+    <environment name="ALPGEN_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/alpgen/214-a90e955bf63622fb41dfb9c794a419d4"/>
+  </client>
+  <runtime name="PATH" value="$ALPGEN_BASE/bin" type="path"/>
+</tool>

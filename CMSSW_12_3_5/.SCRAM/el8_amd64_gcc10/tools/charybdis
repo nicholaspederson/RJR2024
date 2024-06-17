@@ -1,0 +1,30 @@
+{
+  "CHARYBDIS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/charybdis/1.003-27d291d7ec2fce173d90208264e80d88",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/charybdis/1.003-27d291d7ec2fce173d90208264e80d88/include"
+  ],
+  "LIB": [
+    "charybdis"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/charybdis/1.003-27d291d7ec2fce173d90208264e80d88/lib"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/charybdis/1.003-27d291d7ec2fce173d90208264e80d88/include"
+    ]
+  },
+  "TOOLNAME": "charybdis",
+  "TOOLVERSION": "1.003-27d291d7ec2fce173d90208264e80d88",
+  "USE": [
+    "root_cxxdefaults",
+    "f77compiler",
+    "herwig",
+    "pythia6"
+  ],
+  "VARIABLES": [
+    "CHARYBDIS_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

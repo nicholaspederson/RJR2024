@@ -1,0 +1,17 @@
+{
+  "FLAGS": {
+    "CXXFLAGS": [
+      "-DALPAKA_ACC_CPU_B_TBB_T_SEQ_ENABLED",
+      "-DCUPLA_STREAM_ASYNC_ENABLED=1"
+    ]
+  },
+  "LIB": [
+    "cupla-tbb"
+  ],
+  "TOOLNAME": "cupla-tbb",
+  "TOOLVERSION": "0.3.0-63d1b0ab39f4728cfbc54f1dbcd5f59f",
+  "USE": [
+    "cupla",
+    "tbb"
+  ]
+}

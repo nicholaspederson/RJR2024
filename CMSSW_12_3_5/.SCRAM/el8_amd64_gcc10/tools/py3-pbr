@@ -1,0 +1,13 @@
+{
+  "PY3_PBR_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-pbr/5.6.0-c903616ebcd04b2c5f43de5c66962d98",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-pbr/5.6.0-c903616ebcd04b2c5f43de5c66962d98/bin"
+    ]
+  },
+  "TOOLNAME": "py3-pbr",
+  "TOOLVERSION": "5.6.0-c903616ebcd04b2c5f43de5c66962d98",
+  "VARIABLES": [
+    "PY3_PBR_BASE"
+  ]
+}

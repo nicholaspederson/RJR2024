@@ -1,0 +1,20 @@
+{
+  "CASCADE_HEADERS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/cascade/2.2.04-480986bd72ad60b5a55beea43aa6682c",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/cascade/2.2.04-480986bd72ad60b5a55beea43aa6682c/include"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/cascade/2.2.04-480986bd72ad60b5a55beea43aa6682c/include"
+    ]
+  },
+  "TOOLNAME": "cascade_headers",
+  "TOOLVERSION": "2.2.04-480986bd72ad60b5a55beea43aa6682c",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "CASCADE_HEADERS_BASE",
+    "INCLUDE"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FLAGS": {
+    "SYSTEM_INCLUDE": [
+      "1"
+    ]
+  },
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tensorflow/2.6.0-5ef19c6861263cb0bb9e9585d399bd94/include"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tensorflow/2.6.0-5ef19c6861263cb0bb9e9585d399bd94/lib"
+  ],
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tensorflow/2.6.0-5ef19c6861263cb0bb9e9585d399bd94/bin"
+    ]
+  },
+  "TENSORFLOW_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tensorflow/2.6.0-5ef19c6861263cb0bb9e9585d399bd94",
+  "TOOLNAME": "tensorflow",
+  "TOOLVERSION": "2.6.0-5ef19c6861263cb0bb9e9585d399bd94",
+  "VARIABLES": [
+    "TENSORFLOW_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

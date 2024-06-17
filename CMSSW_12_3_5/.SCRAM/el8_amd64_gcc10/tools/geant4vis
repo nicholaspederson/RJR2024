@@ -1,0 +1,18 @@
+{
+  "LIB": [
+    "G4FR",
+    "G4modeling",
+    "G4RayTracer",
+    "G4Tree",
+    "G4visHepRep",
+    "G4vis_management",
+    "G4visXXX",
+    "G4VRML",
+    "G4GMocren"
+  ],
+  "TOOLNAME": "geant4vis",
+  "TOOLVERSION": "10.7.2-ab8adc74c04fe45be9e93e9ea266739a",
+  "USE": [
+    "geant4core"
+  ]
+}

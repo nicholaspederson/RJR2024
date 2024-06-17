@@ -1,0 +1,10 @@
+<tool name="jimmy" version="4.2-0946a2956c22bd57432052718d3cd885">
+  <lib name="jimmy"/>
+  <client>
+    <environment name="JIMMY_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885"/>
+    <environment name="LIBDIR" default="$JIMMY_BASE/lib"/>
+  </client>
+  <use name="f77compiler"/>
+  <use name="herwig"/>
+  <use name="jimmy_headers"/>
+</tool>

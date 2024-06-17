@@ -1,0 +1,14 @@
+<tool name="geant4static" version="10.7.2-ab8adc74c04fe45be9e93e9ea266739a">
+  <info url="http://geant4.web.cern.ch/geant4/"/>
+  <lib name="geant4-static"/>
+  <flags CXXFLAGS="-ftls-model=global-dynamic -pthread"/>
+  <client>
+    <environment name="GEANT4STATIC_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/geant4/10.7.2-ab8adc74c04fe45be9e93e9ea266739a"/>
+    <environment name="LIBDIR" default="$GEANT4STATIC_BASE/lib/archive"/>
+  </client>
+  <use name="clhep"/>
+  <use name="vecgeom"/>
+  <use name="zlib"/>
+  <use name="expat"/>
+  <use name="xerces-c"/>
+</tool>

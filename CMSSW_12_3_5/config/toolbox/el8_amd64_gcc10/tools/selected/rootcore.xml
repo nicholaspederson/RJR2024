@@ -1,0 +1,7 @@
+<tool name="rootcore" version="6.24.07-6b24df5a7040a677b8f0d27957c7cb74">
+  <info url="http://root.cern.ch/root/"/>
+  <lib name="Tree"/>
+  <lib name="Net"/>
+  <use name="rootmathcore"/>
+  <use name="rootthread"/>
+</tool>

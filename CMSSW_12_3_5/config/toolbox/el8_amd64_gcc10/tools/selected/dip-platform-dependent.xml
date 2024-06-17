@@ -1,0 +1,4 @@
+<tool name="dip-platform-dependent" version="8693f00cc422b4a15858fcd84249acaeb07b6316-c7e719858c5dbd367e3c89bc3078c0f1">
+  <lib name="platform-dependent"/>
+  <use name="dip_interface"/>
+</tool>

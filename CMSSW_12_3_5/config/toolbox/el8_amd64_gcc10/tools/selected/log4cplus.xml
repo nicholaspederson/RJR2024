@@ -1,0 +1,8 @@
+<tool name="log4cplus" version="2.0.5-040923af22a5806fc0fc105997e7e121">
+  <lib name="log4cplusS"/>
+  <client>
+    <environment name="LOG4CPLUS_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/log4cplus/2.0.5-040923af22a5806fc0fc105997e7e121"/>
+    <environment name="INCLUDE"        default="$LOG4CPLUS_BASE/include"/>
+    <environment name="LIBDIR"         default="$LOG4CPLUS_BASE/lib64"/>
+  </client>
+</tool>

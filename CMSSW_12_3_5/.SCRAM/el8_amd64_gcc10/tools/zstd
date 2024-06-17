@@ -1,0 +1,27 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/zstd/1.4.5-ec760e16a89e932fdc84f1fd3192f206/include"
+  ],
+  "LIB": [
+    "zstd"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/zstd/1.4.5-ec760e16a89e932fdc84f1fd3192f206/lib"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/zstd/1.4.5-ec760e16a89e932fdc84f1fd3192f206/include"
+    ]
+  },
+  "TOOLNAME": "zstd",
+  "TOOLVERSION": "1.4.5-ec760e16a89e932fdc84f1fd3192f206",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "ZSTD_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ],
+  "ZSTD_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/zstd/1.4.5-ec760e16a89e932fdc84f1fd3192f206"
+}

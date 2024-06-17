@@ -1,0 +1,11 @@
+<tool name="photospp" version="3.64-43fd52b01549d88abbef56fd9479049d">
+  <lib name="Photospp"/>
+  <lib name="PhotosppHepMC"/>
+  <lib name="PhotosppHEPEVT"/>
+  <client>
+    <environment name="PHOTOSPP_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photospp/3.64-43fd52b01549d88abbef56fd9479049d"/>
+    <environment name="LIBDIR" default="$PHOTOSPP_BASE/lib"/>
+    <environment name="INCLUDE" default="$PHOTOSPP_BASE/include"/>
+  </client>
+  <use name="hepmc"/>
+</tool>

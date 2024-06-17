@@ -1,0 +1,10 @@
+<tool name="yaml-cpp" version="0.6.2-6e3ba21d9af166cec194a2c3c5e1d049">
+  <info url="http://code.google.com/p/yaml-cpp/"/>
+  <lib name="yaml-cpp"/>
+  <client>
+    <environment name="YAML_CPP_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/yaml-cpp/0.6.2-6e3ba21d9af166cec194a2c3c5e1d049"/>
+    <environment name="LIBDIR" default="$YAML_CPP_BASE/lib"/>
+    <environment name="INCLUDE" default="$YAML_CPP_BASE/include"/>
+  </client>
+  <use name="boost"/>
+</tool>

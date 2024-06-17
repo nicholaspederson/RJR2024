@@ -1,0 +1,10 @@
+<tool name="hydjet" version="1.9.1-cda14d43e28663aa3a1d7c9547c7ff4c">
+  <lib name="hydjet"/>
+  <client>
+    <environment name="HYDJET_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/hydjet/1.9.1-cda14d43e28663aa3a1d7c9547c7ff4c"/>
+    <environment name="LIBDIR" default="$HYDJET_BASE/lib"/>
+  </client>
+  <use name="pyquen"/>
+  <use name="pythia6"/>
+  <use name="lhapdf"/>
+</tool>

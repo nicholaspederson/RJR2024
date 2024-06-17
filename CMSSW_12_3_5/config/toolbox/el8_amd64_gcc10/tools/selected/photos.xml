@@ -1,0 +1,9 @@
+<tool name="photos" version="215.5-cc7b14faa73e1bc69e5241a20d2e3191">
+  <lib name="photos"/>
+  <client>
+    <environment name="PHOTOS_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photos/215.5-cc7b14faa73e1bc69e5241a20d2e3191"/>
+    <environment name="LIBDIR" default="$PHOTOS_BASE/lib"/>
+  </client>
+  <use name="photos_headers"/>
+  <use name="f77compiler"/>
+</tool>

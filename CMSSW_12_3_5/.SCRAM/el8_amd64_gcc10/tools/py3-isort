@@ -1,0 +1,13 @@
+{
+  "PY3_ISORT_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-isort/5.9.3-2a475a5125ae9949d4ce5d3a40ffd00c",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-isort/5.9.3-2a475a5125ae9949d4ce5d3a40ffd00c/bin"
+    ]
+  },
+  "TOOLNAME": "py3-isort",
+  "TOOLVERSION": "5.9.3-2a475a5125ae9949d4ce5d3a40ffd00c",
+  "VARIABLES": [
+    "PY3_ISORT_BASE"
+  ]
+}

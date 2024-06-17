@@ -1,0 +1,6 @@
+<tool name="gdb" version="10.2-e9b4f9a9d50e8543958fd01922dde675">
+  <client>
+    <environment name="GDB_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/gdb/10.2-e9b4f9a9d50e8543958fd01922dde675"/>
+  </client>
+  <runtime name="PATH" value="$GDB_BASE/bin" type="path"/>
+</tool>

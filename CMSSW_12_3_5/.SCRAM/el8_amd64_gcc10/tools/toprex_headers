@@ -1,0 +1,20 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/toprex/4.23-b392e209da8804283d8a65cb39b944a1/include"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/toprex/4.23-b392e209da8804283d8a65cb39b944a1/include"
+    ]
+  },
+  "TOOLNAME": "toprex_headers",
+  "TOOLVERSION": "4.23-b392e209da8804283d8a65cb39b944a1",
+  "TOPREX_HEADERS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/toprex/4.23-b392e209da8804283d8a65cb39b944a1",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "TOPREX_HEADERS_BASE",
+    "INCLUDE"
+  ]
+}

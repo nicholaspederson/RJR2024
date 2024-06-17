@@ -1,0 +1,29 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/onnxruntime/1.7.2-79589e64e21b9b58260ca5024ec2b163/include"
+  ],
+  "LIB": [
+    "onnxruntime"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/onnxruntime/1.7.2-79589e64e21b9b58260ca5024ec2b163/lib"
+  ],
+  "ONNXRUNTIME_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/onnxruntime/1.7.2-79589e64e21b9b58260ca5024ec2b163",
+  "RUNTIME": {
+    "MLAS_DYNAMIC_CPU_ARCH": [
+      "2"
+    ]
+  },
+  "TOOLNAME": "onnxruntime",
+  "TOOLVERSION": "1.7.2-79589e64e21b9b58260ca5024ec2b163",
+  "USE": [
+    "protobuf",
+    "cuda",
+    "cudnn"
+  ],
+  "VARIABLES": [
+    "ONNXRUNTIME_BASE",
+    "INCLUDE",
+    "LIBDIR"
+  ]
+}

@@ -1,0 +1,6 @@
+<tool name="boost_chrono" version="1.78.0-0d68c45b1e2660f9d21f29f6d0dbe0a0">
+  <info url="http://www.boost.org"/>
+  <lib name="boost_chrono"/>
+  <use name="boost_system"/>
+  <use name="boost"/>
+</tool>

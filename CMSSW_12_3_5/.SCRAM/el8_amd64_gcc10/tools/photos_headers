@@ -1,0 +1,20 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photos/215.5-cc7b14faa73e1bc69e5241a20d2e3191/include"
+  ],
+  "PHOTOS_HEADERS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photos/215.5-cc7b14faa73e1bc69e5241a20d2e3191",
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photos/215.5-cc7b14faa73e1bc69e5241a20d2e3191/include"
+    ]
+  },
+  "TOOLNAME": "photos_headers",
+  "TOOLVERSION": "215.5-cc7b14faa73e1bc69e5241a20d2e3191",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "PHOTOS_HEADERS_BASE",
+    "INCLUDE"
+  ]
+}

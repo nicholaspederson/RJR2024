@@ -1,0 +1,13 @@
+{
+  "PY3_TENSORBOARD_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-tensorboard/2.6.0-9780df8cc0e763df92cce968ff45468e",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-tensorboard/2.6.0-9780df8cc0e763df92cce968ff45468e/bin"
+    ]
+  },
+  "TOOLNAME": "py3-tensorboard",
+  "TOOLVERSION": "2.6.0-9780df8cc0e763df92cce968ff45468e",
+  "VARIABLES": [
+    "PY3_TENSORBOARD_BASE"
+  ]
+}

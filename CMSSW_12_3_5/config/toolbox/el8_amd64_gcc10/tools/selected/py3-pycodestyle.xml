@@ -1,0 +1,6 @@
+<tool name="py3-pycodestyle" version="2.7.0-781090f29eae669ccb2081b38921825e">
+  <client>
+    <environment name="PY3_PYCODESTYLE_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-pycodestyle/2.7.0-781090f29eae669ccb2081b38921825e"/>
+  </client>
+  <runtime name="PATH" value="$PY3_PYCODESTYLE_BASE/bin" type="path"/>
+</tool>

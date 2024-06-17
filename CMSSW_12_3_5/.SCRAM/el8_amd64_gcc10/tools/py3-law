@@ -1,0 +1,13 @@
+{
+  "PY3_LAW_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-law/0.1.5-f96097ee40c03684fc000e1bc81f01a3",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-law/0.1.5-f96097ee40c03684fc000e1bc81f01a3/bin"
+    ]
+  },
+  "TOOLNAME": "py3-law",
+  "TOOLVERSION": "0.1.5-f96097ee40c03684fc000e1bc81f01a3",
+  "VARIABLES": [
+    "PY3_LAW_BASE"
+  ]
+}

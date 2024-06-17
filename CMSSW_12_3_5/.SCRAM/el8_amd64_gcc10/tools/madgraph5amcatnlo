@@ -1,0 +1,20 @@
+{
+  "MADGRAPH5AMCATNLO_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/madgraph5amcatnlo/2.7.3-2817ea5502e14749ae877ff6fa4b1b55",
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/madgraph5amcatnlo/2.7.3-2817ea5502e14749ae877ff6fa4b1b55"
+    ],
+    "PATH:ROOT_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/madgraph5amcatnlo/2.7.3-2817ea5502e14749ae877ff6fa4b1b55"
+    ]
+  },
+  "TOOLNAME": "madgraph5amcatnlo",
+  "TOOLVERSION": "2.7.3-2817ea5502e14749ae877ff6fa4b1b55",
+  "USE": [
+    "root_cxxdefaults",
+    "gosamcontrib"
+  ],
+  "VARIABLES": [
+    "MADGRAPH5AMCATNLO_BASE"
+  ]
+}

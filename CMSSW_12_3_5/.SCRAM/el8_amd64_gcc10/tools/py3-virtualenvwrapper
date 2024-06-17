@@ -1,0 +1,13 @@
+{
+  "PY3_VIRTUALENVWRAPPER_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-virtualenvwrapper/4.8.4-836a902f86b5ca7f17d5f70136ec3e04",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-virtualenvwrapper/4.8.4-836a902f86b5ca7f17d5f70136ec3e04/bin"
+    ]
+  },
+  "TOOLNAME": "py3-virtualenvwrapper",
+  "TOOLVERSION": "4.8.4-836a902f86b5ca7f17d5f70136ec3e04",
+  "VARIABLES": [
+    "PY3_VIRTUALENVWRAPPER_BASE"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885/include"
+  ],
+  "JIMMY_HEADERS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885",
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/jimmy/4.2-0946a2956c22bd57432052718d3cd885/include"
+    ]
+  },
+  "TOOLNAME": "jimmy_headers",
+  "TOOLVERSION": "4.2-0946a2956c22bd57432052718d3cd885",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "JIMMY_HEADERS_BASE",
+    "INCLUDE"
+  ]
+}

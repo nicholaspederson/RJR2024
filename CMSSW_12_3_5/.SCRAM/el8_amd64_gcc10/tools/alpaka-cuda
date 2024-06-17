@@ -1,0 +1,13 @@
+{
+  "FLAGS": {
+    "CXXFLAGS": [
+      "-DALPAKA_ACC_GPU_CUDA_ENABLED"
+    ]
+  },
+  "TOOLNAME": "alpaka-cuda",
+  "TOOLVERSION": "develop-20220124-f17f2dd6cc2f71a4ec62ac55fe4ce61f",
+  "USE": [
+    "alpaka",
+    "cuda"
+  ]
+}

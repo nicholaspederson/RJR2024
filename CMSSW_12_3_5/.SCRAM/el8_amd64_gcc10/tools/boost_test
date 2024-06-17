@@ -1,0 +1,10 @@
+{
+  "LIB": [
+    "boost_unit_test_framework"
+  ],
+  "TOOLNAME": "boost_test",
+  "TOOLVERSION": "1.78.0-0d68c45b1e2660f9d21f29f6d0dbe0a0",
+  "USE": [
+    "boost"
+  ]
+}

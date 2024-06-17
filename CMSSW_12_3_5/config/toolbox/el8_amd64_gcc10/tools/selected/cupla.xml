@@ -1,0 +1,9 @@
+<tool name="cupla" version="0.3.0-63d1b0ab39f4728cfbc54f1dbcd5f59f">
+  <info url="https://github.com/ComputationalRadiationPhysics/cupla"/>
+  <use name="boost"/>
+  <client>
+    <environment name="CUPLA_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/cupla/0.3.0-63d1b0ab39f4728cfbc54f1dbcd5f59f"/>
+    <environment name="INCLUDE"    default="$CUPLA_BASE/include"/>
+    <environment name="LIBDIR"     default="$CUPLA_BASE/lib"/>
+  </client>
+</tool>

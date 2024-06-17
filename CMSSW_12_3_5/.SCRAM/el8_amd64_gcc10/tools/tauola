@@ -1,0 +1,20 @@
+{
+  "LIB": [
+    "pretauola",
+    "tauola"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tauola/27.121.5-136fe805489b80ebca3fe9910b2a983d/lib"
+  ],
+  "TAUOLA_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/tauola/27.121.5-136fe805489b80ebca3fe9910b2a983d",
+  "TOOLNAME": "tauola",
+  "TOOLVERSION": "27.121.5-136fe805489b80ebca3fe9910b2a983d",
+  "USE": [
+    "f77compiler",
+    "tauola_headers"
+  ],
+  "VARIABLES": [
+    "TAUOLA_BASE",
+    "LIBDIR"
+  ]
+}
